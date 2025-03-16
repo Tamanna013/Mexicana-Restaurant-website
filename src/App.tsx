@@ -3,9 +3,11 @@ import Base from './components/base';
 import SecondBase from './components/secondBase';
 import Menu from './components/MenuInterface';
 import ContactUs from './components/contactUs';
-import './App.css'
+import OnlineReservation from './components/onlineReservation';
+import Footer from './components/footer';
+import './App.css';
 
-function App() {
+const App = () => {
   return (
     <>
       <Hero />
@@ -13,8 +15,10 @@ function App() {
       <SecondBase />
       <Menu />
       <ContactUs />
+      <OnlineReservation />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
